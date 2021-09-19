@@ -1,0 +1,146 @@
+baseurl = "https://www.denisetutino.it/"
+languageCode = "it-it"
+title = "Denise Tutino Portfolio"
+theme = "sloth"
+DefaultContentLanguage = "it"
+
+[languages]
+	[languages.en]
+		[languages.en.params.about]
+			title = "About me"
+			
+	[languages.it]
+		[languages.it.params.about]
+			title = "In breve"
+
+[params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Denise Tutino"
+    description = "Graphic Designer"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email youself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    email = "tutino.denise@gmail.com"
+
+    [params.navigation]
+        brand = "Denise Tutino"
+		description = "Graphic Designer"
+
+
+    [params.header]
+        # Copy your own image into './static/img/'' if you wish
+        image = "profile.png"
+        name = "Denise Tutino"
+        subtitle = "Graphic Designer"
+
+
+    [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Portfolio"
+
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttontext = "Close"
+
+
+    [params.about]
+        title = "In breve"
+        # The about text is splitted into a left and right column
+        left = "Sono una grafica di Monfalcone che ama disegnare fin da bambina. Ho sempre apprezzato le arti grafiche e visive, coltivando una passione in particolare per il fumetto e l'illustrazione. Partendo dal web design e dalla stampa, questo mio interesse si è trasformato nel tempo nell’attenzione per ogni forma di comunicazione di tipo visivo e grafico, compresi anche la"
+        right = "multimedialità, la realizzazione di video promozionali, la motion graphic, la modellazione e la scultura 3D. Sono cresciuta in un ambiente tecnologico e orientato al digitale, per questo motivo mi trovo a mio agio con le nuove tecnologie."
+		content = "Sono una grafica di Monfalcone che ama disegnare fin da bambina. Ho sempre apprezzato le arti grafiche e visive, coltivando una passione in particolare per il fumetto e l'illustrazione. Partendo dal web design e dalla stampa, questo mio interesse si è trasformato nel tempo nell’attenzione per ogni forma di comunicazione di tipo visivo e grafico, compresi anche la multimedialità, la realizzazione di video promozionali, la motion graphic, la modellazione e la scultura 3D. Sono cresciuta in un ambiente tecnologico e orientato al digitale, per questo motivo mi trovo a mio agio con le nuove tecnologie."
+		
+        [params.about.button]
+            text = "Download theme"
+            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            icon = "download"
+
+
+	[params.download]
+		title = "Curriculum Vitae"
+		description = "Che dire di me? Dai un'occhiata al mio Curriculum Vitae"
+		
+		[params.download.button]
+			text = "Scarica il mio CV"
+			link = "/assets/CV_2019-tutino-simple-1.pdf"
+			
+    [params.contact]
+        title = "Contattami"
+
+        # 'error' defines error messages for invalid inputs
+        [params.contact.form.name]
+            text = "Nome"
+            error = "Inserisci il tuo nome."
+
+        [params.contact.form.email]
+            text = "Indirizzo Email"
+            error = "Inserisci il tuo indirizzo email."
+
+        [params.contact.form.phone]
+            text = "Numero di telefono"
+            error = "Inserisci qui il tuo numero di telefono."
+
+        [params.contact.form.message]
+            text = "Messaggio"
+            error = "Inserisci qui il testo del messaggio che vuoi inviarmi."
+
+        [params.contact.form.button]
+            text = "Invia"
+
+
+    [params.footer]
+        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+
+        [params.footer.location]
+            title = "Contatti"
+            # Postal address (add as many lines as necessary)
+            address = ["info@denisetutino.it"]
+
+        [params.footer.social]
+            title = "Social club"
+            # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+            # for more icons. The icons are represented by their corresponding
+            # CSS class.
+            [[params.footer.social.networks]]
+                icon = "fa-linkedin"
+                link = "//it.linkedin.com/in/denise-tutino"
+
+			[[params.footer.social.networks]]
+                icon = "fa-instagram"
+                link = "//www.instagram.com/zigbrusher/"
+				
+            [[params.footer.social.networks]]
+                icon = "fa-facebook"
+                link=  "//it-it.facebook.com/zigbrusher/"
+				
+
+		[params.footer.quote]
+			text = "Punta alla luna: anche se non ci arriverai, ti troverai tra le stelle"
+			author = "Les Brown"
+				
+        [params.footer.credits]
+            title = "About Freelancer"
+            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+
+		[params.footer.privacy]
+			link = "/privacy-policy/"
+			title = "Privacy policy"

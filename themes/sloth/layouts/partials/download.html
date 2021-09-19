@@ -1,0 +1,12 @@
+{{ "<!-- Download Section -->" | safeHTML }}
+<section id="download" class="content-section text-center">
+	<div class="download-section">
+		<div class="container">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>{{ with .Site.Params.download.title }}{{.}}{{ end }}</h2>
+				<p>{{ with .Site.Params.download.description }}{{ . | markdownify }}{{ end }}</p>
+				<a href="{{ with .Site.Params.download.button.link }}{{.}}{{ end }}" class="btn btn-default btn-lg">{{ with .Site.Params.download.button.text }}{{.}}{{ end }}</a>
+			</div>
+		</div>
+	</div>
+</section>
