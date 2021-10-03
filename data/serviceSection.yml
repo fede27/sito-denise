@@ -1,0 +1,25 @@
+---
+enable: true
+topTitle: Servizi offerti
+title: >
+  ## Creative Services
+  Enjoy team diversity and increase their networks among others people in
+  various fields by provided.
+service:
+  - content: >
+      #### Motion Graphic and Animation
+      Video con grafiche e illustrazioni animate per presentazioni aziendali, promozioni, ads, infografiche animate,
+      realizzate con la tecnica del motion graphic, nonché animazioni tradizionali frame by frame.
+    image: images/service/ui-ux.svg
+    alt: Motion graphic and animation icon
+  - content: >
+      #### Video editing e VFX 
+      Montaggio di clip video con aggiunta di titoli e testi, color grading e effetti (VFX).
+    image: images/service/web.svg
+    alt: Video editing and VFX icon
+  - content: >
+      #### Illustrazione e graphic design
+      Illustazioni a mano libera e vettoriali, storyboard, progettazione grafica, immagine coordinata, logo design,
+      impaginazione per social media, web e carta.
+    image: images/service/creative.svg
+    alt: Illustation and graphic design icon
