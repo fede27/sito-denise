@@ -13,14 +13,21 @@
         <div class="row row-eq-height">
             {{ $Section := .service }}
             {{ range $Section }}
-            <div class="col-sm-4 service-slider-item">
-                <div class="service-slider-item-icon">
-                    <div class="icon">
-                        <img src=" {{ .image | absURL }} " alt="{{ .alt }}">
+            <div class="col-sm-4">
+                <div class="service-slider-item">
+                    <div class="service-slider-item-icon">
+                        <div class="icon">
+                            <!-- <img src=" {{ .image | absURL }} " alt="{{ .alt }}"> -->
+                            <lottie-player
+                                src=" {{ .image | absURL }} "
+                                autoplay
+                                loop
+                            ></lottie-player>
+                        </div>
                     </div>
-                </div>
-                <div class="mt-5">
-                    {{ .content | markdownify }}
+                    <div class="mt-5">
+                        {{ .content | markdownify }}
+                    </div>
                 </div>
             </div>
             {{ end }}
