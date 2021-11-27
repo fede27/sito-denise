@@ -10,16 +10,19 @@ service:
       #### Motion Graphic and Animation
       Video con grafiche e illustrazioni animate per presentazioni aziendali, promozioni, ads, infografiche animate,
       realizzate con la tecnica del motion graphic, nonché animazioni tradizionali frame by frame.
-    image: images/service/ui-ux.svg
+    image: img/service/example.png
     alt: Motion graphic and animation icon
+    order: 1
   - content: >
       #### Video editing e VFX 
       Montaggio di clip video con aggiunta di titoli e testi, color grading e effetti (VFX).
-    image: images/service/web.svg
+    image: img/service/example.png
     alt: Video editing and VFX icon
+    order: 2
   - content: >
       #### Illustrazione e graphic design
       Illustazioni a mano libera e vettoriali, storyboard, progettazione grafica, immagine coordinata, logo design,
       impaginazione per social media, web e carta.
-    image: images/service/creative.svg
+    image: img/service/example.png
     alt: Illustation and graphic design icon
+    order: 3
